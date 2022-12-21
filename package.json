@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/libian19/DOM-Avocados",
+  "homepage": "https://libian19.github.io/DOM-Avocados",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

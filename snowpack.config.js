@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://github.com/libian19/DOM-Avocados',
+    baseUrl: 'https://libian19.github.io/DOM-Avocados',
   },
 }
