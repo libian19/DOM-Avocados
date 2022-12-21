@@ -1,3 +1,29 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.container-avocados{
+    margin: 20px auto;
+    text-align: center;
+}
+.container-avocados div{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 20px 50px 50px 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 940px){
+    .container-avocados{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 50px;
+      
+    }
+    .container-avocados div{
+        margin: 0 0 10px 0;
+    }
+
+}
