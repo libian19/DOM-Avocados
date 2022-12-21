@@ -6,6 +6,12 @@
 const url = 'https://platzi-avo.vercel.app';
 const appNode = document.querySelector('#app')
 
+appNode.addEventListener('click', (event) =>{
+    if (event.target.nodeName === 'H2'){
+        window.alert('Soy un rico avocado :)')
+    }
+})
+
 const formatPrice = (price) =>{
     const newPrice = new window.Intl.NumberFormat("en-EN", {
         style: 'currency',
